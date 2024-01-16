@@ -1,0 +1,78 @@
+/* Ctrl+? */
+/* 标签选择器 */
+/* text{
+    color:red;
+} */
+
+/* 类选择器 类名也可以重复，不同标签仍然通用*/
+/* .test{
+    color:blue;
+} */
+
+/* id选择器（唯一性） */
+#box{
+    color:green;
+    font-size: 40px;
+    /* px像素，数字越大，字越大 */
+}
+#box2{
+    text-align: center;
+}
+
+.test2{
+    width:100px;
+    height: 100px;
+    background-color: red;
+}
+
+/*边距 盒子模型
+margin-top外边距
+浮上来 谁先谁先浮 一行排不下就换行
+浮:灵活度不强*/
+.box-content{
+    margin-top:10px;
+    background-color: yellow;
+    /*父级元素颜色*/
+    display: flex;
+    /* 弹性布局：不用float：left */
+    justify-content: space-between;
+    /* 左右，余中间 */
+    
+}
+.view1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* float: left; */
+    flex-grow: 1;
+    /* 1：1 */
+}
+
+.view2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* float: left; */
+    flex-grow: 1;
+    /* 放大比例（占满）：flex */
+}
+
+/*定位*/
+.box-content2{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position:relative;
+    
+}
+.box-inner{
+    /*向左向下10px*/
+    /* 就近，向上找，第一天position，所以跟随box-content2 */
+    position:absolute;
+    left: 10px;
+    top:10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+

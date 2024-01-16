@@ -1,0 +1,27 @@
+<template name="tv-list">
+  <view class="content-item">
+    <view class="index-title">
+      <view class="it-left">{{val.subject_collection.name}}</view>
+      <view class="it-right" data-id="{{val.subject_collection.id}}" bindtap="goDetail">
+        更多
+        <text>{{val.total}}</text>
+        <text class="iconfont icon-jiantouyou"></text>
+      </view>
+    </view>
+    <scroll-view class="scroll-bar" scroll-x="{{true}}">
+      <view class="index-list">
+        <view class="il-item" wx:for="{{val.subject_collection_items}}">
+          <view class="item-img">
+            <image mode="widthFix" src="{{item.cover.url}}"></image>
+          </view>
+          <view class="item-title">
+            {{item.title}}
+          </view>
+          <view class="item-rate">
+            <rate val="{{item.rating}}"></rate>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</template>

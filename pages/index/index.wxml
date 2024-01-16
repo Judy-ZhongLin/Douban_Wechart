@@ -1,0 +1,51 @@
+<!--
+#不同标签有不同特性:行标签元素、块标签元素
+行标签元素：多个标签在同一行展示（里面不能放块标签）
+块标签元素：每一个标签占据一行
+#text 行
+#view 块
+-->
+<!-- <text class = "test" id= "box">hello world!</text> -->
+<!--起别名区分class-->
+<!--id不可重复(写了不报错，但是不规范，会出现问题)-->
+<!-- <text>hello world!</text>
+<view>你好</view>
+
+<text id= "box2">hello world!</text>
+<view>
+你好
+<text >hello world!</text>
+</view>
+
+<text class="test2">test2</text>
+<image src = "../../images/1.jpg"></image> -->
+<!--src并不是都能用-->
+
+<!--class名字要见名知意-->
+<!--行元素没有高宽等元素，所以普遍用view-->
+
+<!--<view class = "box-content">
+
+    <view class = "view1"> </view>
+
+    <view class = "view2"> </view>
+</view>
+-->
+
+<!-- <view class = "box-content2">
+    <view class="box-inner">
+    </view>
+</view> -->
+
+<!-- js与标签组合实现功能 wxml框架里面有-->
+<view>{{str}}</view>
+<view>{{str2}}</view>
+
+<!-- 一般全部都为｛｛｝｝ -->
+<!-- <>中值不用出现 -->
+<!-- 警告:有规范的地方，在特定的情况下出现问题,所以加上key，注意key不能重复才可以用 -->
+
+<view wx:for = "{{arr}}" wx:key="item">姓名：小{{item}}</view>
+<view wx:if="{{boo}}">hello</view>
+<!-- <view wx:if="{{!boo}}">你好</view> -->
+<view wx:else>你好</view>

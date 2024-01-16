@@ -1,0 +1,173 @@
+<!--
+此文件为开发者工具生成，生成时间: 2022/1/24 下午8:01:32
+使用方法：
+在 /Users/fengchuanyu/WeChatProjects/doubanmovie/miniprogram/pages/tv_index/tv_index.wxml 引入模板
+
+```
+<import src="tv_index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 /Users/fengchuanyu/WeChatProjects/doubanmovie/miniprogram/pages/tv_index/tv_index.wxss 中引入样式
+```
+@import "./tv_index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="index-container">
+      <view class="content-item">
+        <view class="index-title">
+          <view class="it-left sk-transparent sk-text-14-2857-158 sk-text">近期热门国产剧</view>
+          <view class="it-right sk-transparent">
+            更多
+            <text class="sk-transparent sk-text-14-2857-118 sk-text">50</text>
+            <text class="iconfont icon-jiantouyou sk-pseudo sk-pseudo-circle"></text>
+          </view>
+        </view>
+        <scroll-view class="scroll-bar" scroll-x="true">
+          <view class="index-list">
+            <view class="il-item">
+              <view class="item-img">
+                <image mode="widthFix" style="height: 184.407px;" class="sk-image"></image>
+              </view>
+              <view class="item-title sk-transparent sk-text-14-2857-993 sk-text" style="background-position-x: 50%;">
+                开端
+              </view>
+              <view class="item-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--empty-star"></text>
+                    <text class="rate--num-text sk-transparent sk-text-14-2857-76 sk-text" style="background-position-x: 50%;">8.2</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="il-item">
+              <view class="item-img">
+                <image mode="widthFix" style="height: 181.759px;" class="sk-image"></image>
+              </view>
+              <view class="item-title sk-transparent sk-text-14-2857-881 sk-text" style="background-position-x: 50%;">
+                今生有你
+              </view>
+              <view class="item-rate">
+                <view is="components/rate/rate">
+                  <view>
+                    <text class="rate--num-text sk-transparent sk-text-14-2857-826 sk-text" style="background-position-x: 50%;">暂无评分</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="il-item">
+              <view class="item-img">
+                <image mode="widthFix" style="height: 195px;" class="sk-image"></image>
+              </view>
+              <view class="item-title sk-transparent sk-text-14-2857-660 sk-text" style="background-position-x: 50%;">
+                大妈的世界
+              </view>
+              <view class="item-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--empty-star"></text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="content-item">
+        <view class="index-title">
+          <view class="it-left sk-transparent sk-text-14-2857-33 sk-text">近期热门综艺节目</view>
+          <view class="it-right sk-transparent">
+            更多
+            <text class="sk-transparent sk-text-14-2857-902 sk-text">50</text>
+            <text class="iconfont icon-jiantouyou sk-pseudo sk-pseudo-circle"></text>
+          </view>
+        </view>
+        <scroll-view class="scroll-bar" scroll-x="true">
+          <view class="index-list">
+            <view class="il-item">
+              <view class="item-img">
+                <image mode="widthFix" style="height: 173.333px;" class="sk-image"></image>
+              </view>
+              <view class="item-title sk-transparent sk-text-14-2857-93 sk-text" style="background-position-x: 50%;">
+                守护解放西3
+              </view>
+              <view class="item-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--num-text sk-transparent sk-opacity">9</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="il-item">
+              <view class="item-img">
+                <image mode="widthFix" style="height: 192.352px;" class="sk-image"></image>
+              </view>
+              <view class="item-title sk-transparent sk-text-14-2857-113 sk-text" style="background-position-x: 50%;">
+                单身即地狱
+              </view>
+              <view class="item-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--empty-star"></text>
+                    <text class="rate--num-text sk-transparent sk-text-14-2857-453 sk-text" style="background-position-x: 50%;">7.3</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="il-item">
+              <view class="item-img">
+                <image mode="widthFix" style="height: 194.759px;" class="sk-image"></image>
+              </view>
+              <view class="item-title sk-transparent sk-text-14-2857-177 sk-text" style="background-position-x: 50%;">
+                哈哈哈哈哈 第二季
+              </view>
+              <view class="item-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--full-star"></text>
+                    <text class="rate--empty-star"></text>
+                    <text class="rate--empty-star"></text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="content-item">
+        <view class="index-title">
+          <view class="it-left sk-transparent sk-text-14-2857-20 sk-text">近期热门美剧</view>
+          <view class="it-right sk-transparent">
+            更多
+            <text class="sk-transparent sk-text-14-2857-695 sk-text">50</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

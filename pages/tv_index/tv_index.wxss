@@ -1,0 +1,51 @@
+@import "./tv_index.skeleton.wxss";
+.index-container{
+    /* rpx动态的*/
+    margin:20rpx;
+}
+.index-title{
+    display:flex;
+    justify-content: space-between;
+}
+.it-left{
+    font-size: 40rpx;
+    color: #111111;
+    /* 111111 六位一样可写三位 */
+    font-weight: 500;
+}
+.it-right{
+    font-size: 30rpx;
+    color: #111111;
+    display: flex;
+    align-items: center;
+}
+.icon-jiantouyou{
+    font-size:24rpx;
+}
+.index-list{
+    margin-top:20rpx;
+    display:flex;
+    width:2240rpx;
+}
+.il-item{
+    width:260rpx;
+    text-align: center;
+    margin-right:20rpx;
+}
+/* il-item 里面有image 来控制它 */
+.il-item image{
+    width: 100%;
+    border-radius: 10rpx;
+}
+.il-item  .item-title{
+    font-size: 35rpx;
+    color: #111111;
+    /* 超出部分不显示 */
+    white-space: nowrap;
+    overflow:hidden;
+    /* text-align: center; */
+    text-overflow:ellipsis;
+}
+.scroll-bar{
+    height: 510rpx;
+}

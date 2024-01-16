@@ -1,0 +1,8 @@
+<import src="./list_item.wxml"></import>
+<import src="./tv_index.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view class="index-container" wx:else>
+  <template is="tv-list" data="{{val:domesticList}}"></template>
+  <template is="tv-list" data="{{val:varietyShowList}}"></template>
+  <template is="tv-list" data="{{val:americanTVList}}"></template>
+</view>
